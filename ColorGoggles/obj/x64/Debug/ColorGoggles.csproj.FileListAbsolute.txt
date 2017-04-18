@@ -1,0 +1,10 @@
+c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\bin\x64\Debug\ColorGoggles.exe.config
+c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\bin\x64\Debug\ColorGoggles.exe
+c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\bin\x64\Debug\ColorGoggles.pdb
+c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\obj\x64\Debug\ColorGoggles.Form1.resources
+c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\obj\x64\Debug\ColorGoggles.Properties.Resources.resources
+c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\obj\x64\Debug\ColorGoggles.csproj.GenerateResource.Cache
+c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\obj\x64\Debug\ColorGoggles.exe
+c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\obj\x64\Debug\ColorGoggles.pdb
+c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\bin\x64\Debug\igfxDHLib.dll
+c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\obj\x64\Debug\ColorGoggles.csprojResolveAssemblyReference.cache
