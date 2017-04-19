@@ -1,9 +1,0 @@
-c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\bin\Debug\ColorGoggles.exe.config
-c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\bin\Debug\ColorGoggles.exe
-c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\bin\Debug\ColorGoggles.pdb
-c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\obj\Debug\ColorGoggles.csprojResolveAssemblyReference.cache
-c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\obj\Debug\ColorGoggles.Form1.resources
-c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\obj\Debug\ColorGoggles.Properties.Resources.resources
-c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\obj\Debug\ColorGoggles.csproj.GenerateResource.Cache
-c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\obj\Debug\ColorGoggles.exe
-c:\users\dan\documents\visual studio 2017\Projects\ColorGoggles\ColorGoggles\obj\Debug\ColorGoggles.pdb
