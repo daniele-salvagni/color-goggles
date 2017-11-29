@@ -12,6 +12,7 @@ namespace ColorGoggles
     {
 
         private static Dictionary<uint, String> deviceList = new Dictionary<uint, String>();
+
         private static uint ulDevices = 0u;
         private static uint ulDeviceID = 0u;
 

@@ -1,21 +1,31 @@
 ﻿using igfxDHLib;
+using System;
+using System.IO;
 
 namespace ColorGoggles
 {
     internal class IgfxDH
     {
 
-        private static DataHandlerClass _dataHandler;
+        private static DataHandler m_dataHandler;
 
-        public static DataHandlerClass DataHandler
+        public static DataHandler DataHandler
         {
             get
             {
-                if (IgfxDH._dataHandler == null)
+                if (IgfxDH.m_dataHandler == null)
+                {
+                    try
                     {
-                        IgfxDH._dataHandler = new DataHandlerClass();
+                        IgfxDH.m_dataHandler = (DataHandler)Activator.CreateInstance(Type.GetTypeFromCLSID(
+                            new Guid("D5F5053A-9585-4D80-8F6F-7B6587CEFB93"), true));
                     }
-                return IgfxDH._dataHandler;
+                    catch (Exception e)
+                    {
+                    }
+                }
+
+                return IgfxDH.m_dataHandler;
             }
         }
 
