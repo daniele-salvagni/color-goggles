@@ -1,6 +1,6 @@
 # ColorGoggles
 
-Saturation manager for Intel™ and Dual-Graphics laptops.
+Saturation manager for Intel™ and Dual-Graphics laptops. - http://dan.salvagni.io/s/color-goggles/
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/6751621/33404619-40cd918c-d565-11e7-9d63-d0ec502b5d86.png">
