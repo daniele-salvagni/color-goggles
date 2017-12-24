@@ -34,6 +34,7 @@ You can find the latest release (.zip) here: https://github.com/daniele-salvagni
 
 #### Changelog
 
+- v0.2.1-beta <sup>(1217)</sup>: Fix autostart bug (dll not found).
 - v0.2-beta <sup>(0917)</sup>: Fix crashes for devices with different igfx versions, add UI support for high DPI displays, add new installation instructions.
 - v0.1-beta <sup>(0417)</sup>: Initial release.
 
