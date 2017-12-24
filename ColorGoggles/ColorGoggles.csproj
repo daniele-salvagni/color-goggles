@@ -134,12 +134,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\SteamDonate.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Steam.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="colorgoggles.ico" />
     <Content Include="Resources\logo.png" />
   </ItemGroup>
