@@ -25,7 +25,8 @@ namespace ColorGoggles
                 return;
 
             // Check for igfxDHLib
-            if (!System.IO.File.Exists("igfxDHLib.dll")) {
+            string dllPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "igfxDHLib.dll");
+            if (!System.IO.File.Exists(dllPath)) {
                 MessageBox.Show("Library `igfxDHLib.dll` not found. Please follow installation instructions in README.txt",
                     "Library not found", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
