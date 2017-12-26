@@ -1,5 +1,7 @@
 # ColorGoggles
 
+![](https://img.shields.io/badge/requires-igfxDHLib.dll-ff69b4.svg) ![](https://img.shields.io/badge/saturation-+100%25-green.svg) 
+
 Saturation manager for Intel™ and Dual-Graphics laptops. - http://dan.salvagni.io/s/color-goggles/
 
 <p align="center">
