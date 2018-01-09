@@ -1,11 +1,12 @@
 # ColorGoggles
 
-![](https://img.shields.io/badge/requires-igfxDHLib.dll-ff69b4.svg) ![](https://img.shields.io/badge/saturation-+100%25-green.svg) 
+![](https://img.shields.io/badge/requires-igfxDHLib.dll-ff69b4.svg) ![](https://img.shields.io/badge/saturation-+320%25-green.svg) 
 
-Saturation manager for Intel™ and Dual-Graphics laptops. - http://dan.salvagni.io/s/color-goggles/
+Saturation (up to **320%**) manager for Intel™ and Dual-Graphics laptops. - http://dan.salvagni.io/s/color-goggles/  
+
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/6751621/33404619-40cd918c-d565-11e7-9d63-d0ec502b5d86.png">
+<img src="https://user-images.githubusercontent.com/6751621/34745778-e9e03b98-f591-11e7-98e8-0c47e67e45f6.png">
 </p>
 
 ColorGoggles is an extremely lightweight application that automatically manages your digital saturation when playing games to enhance visibility.
@@ -16,29 +17,31 @@ This is an alternative to VibranceGUI for people with Intel HD Graphics or dual-
 
 - Download and extract the .zip
 - Open `C:\Windows\System32\DriverStore\FileRepository` and do a search for a file named `igfxDHLib.dll`
-- Copy `igfxDHLib.dll` in the same folder as `ColorGoggles.exe`
+- Copy `igfxDHLib.dll` in the same folder as `Color-Goggles.exe`
 
 You have to do this because there are multiple versions of `igfxDHLib.dll` (they are all marked as `1.0.0.0` but are different), so I cannot embed the interop types in the .exe nor give you my DLL as it wouldn't work in most cases.
 
 
 ### Usage
 
-- Add the process name of the game you want to add
+- Add the process name (.exe) of the games you want to play
+- Check "Remove limits" for saturation up to 320%
 - Configure at will
 - Have fun!
 
 
 ### Download
 
-You can find the latest release (.zip) here: https://github.com/daniele-salvagni/color-goggles/releases
+You can always find the latest release on the website: http://dan.salvagni.io/s/color-goggles/  
+or on this repo's Release page: https://github.com/daniele-salvagni/color-goggles/releases
 
 ---------------
 
 #### Changelog
 
-- v0.2.1-beta <sup>(1217)</sup>: Fix autostart bug (dll not found).
-- v0.2-beta <sup>(0917)</sup>: Fix crashes for devices with different igfx versions, add UI support for high DPI displays, add new installation instructions.
-- v0.1-beta <sup>(0417)</sup>: Initial release.
+- v1.0.0 *(01-18)*: Complete application rewrite. Fixed bug preventing autostart to be disabled permanently. Intel saturation limits removal (experimental, from 100% to 320%). Added feature to automatically check for updates.
+- v0.2.1-beta *(12-17)*: Fix autostart bug (dll not found).
+- v0.2.0-beta *(09-17)*: Fix crashes for devices with different igfx versions, add UI support for high DPI displays, add new installation instructions.
+- v0.1.0-beta *(04-17)*: Initial release.
 
-
-<sub>This is a very early version, it was initially not intended for public release and the code wouldn't mind a refactor. Saturation is changed using Intel's `igfxDHLib.dll` which is undocumented, there are no public APIs so I had to reverse engineer the *Intel HD Graphics Control Panel* and then proceed by trial and error.<sub>
+<sub>Saturation is changed using Intel's `igfxDHLib.dll` which is undocumented, there are no public APIs so I had to reverse engineer the *Intel HD Graphics Control Panel* and then proceed by trial and error. Please report any issues you may encounter.<sub>
