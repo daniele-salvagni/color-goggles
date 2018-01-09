@@ -1,21 +1,18 @@
-﻿using System;
+﻿using color_goggles.Model;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ColorGoggles
+namespace color_goggles
 {
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
-
             // DPI Fix
             if (Environment.OSVersion.Version.Major >= 6) SetProcessDPIAware();
 
@@ -34,8 +31,13 @@ namespace ColorGoggles
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
 
+            // Initialization
+            var display = new Model.Display(IgfxDH.DataHandler.BrandInfo.wcBrandName + " - "
+                + IgfxDH.DataHandler.BrandInfo.wcAdapterName);
+            var view = new GogglesForm();
+            var presenter = new Presenter.GogglesPresenter(view, display);
+            Application.Run(view);
         }
 
         [System.Runtime.InteropServices.DllImport("user32.dll")]

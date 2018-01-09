@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ColorGoggles.Properties {
+namespace color_goggles.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.1.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.5.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -25,21 +25,7 @@ namespace ColorGoggles.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<ArrayOfString xmlns:xsi=\"http://www.w3." +
-            "org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <s" +
-            "tring>csgo.exe</string>\r\n  <string>dota2.exe</string>\r\n</ArrayOfString>")]
-        public global::System.Collections.Specialized.StringCollection Games {
-            get {
-                return ((global::System.Collections.Specialized.StringCollection)(this["Games"]));
-            }
-            set {
-                this["Games"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        [global::System.Configuration.DefaultSettingValueAttribute("100")]
         public int GameSat {
             get {
                 return ((int)(this["GameSat"]));
@@ -64,36 +50,62 @@ namespace ColorGoggles.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool Check1 {
+        public bool Enabled {
             get {
-                return ((bool)(this["Check1"]));
+                return ((bool)(this["Enabled"]));
             }
             set {
-                this["Check1"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool Check3 {
-            get {
-                return ((bool)(this["Check3"]));
-            }
-            set {
-                this["Check3"] = value;
+                this["Enabled"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool Check2 {
+        public bool Autostart {
             get {
-                return ((bool)(this["Check2"]));
+                return ((bool)(this["Autostart"]));
             }
             set {
-                this["Check2"] = value;
+                this["Autostart"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool IgnoreFocus {
+            get {
+                return ((bool)(this["IgnoreFocus"]));
+            }
+            set {
+                this["IgnoreFocus"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool RemoveLimits {
+            get {
+                return ((bool)(this["RemoveLimits"]));
+            }
+            set {
+                this["RemoveLimits"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<ArrayOfString xmlns:xsi=\"http://www.w3." +
+            "org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <s" +
+            "tring>csgo.exe</string>\r\n  <string>dota2.exe</string>\r\n</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection Games {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["Games"]));
+            }
+            set {
+                this["Games"] = value;
             }
         }
     }
