@@ -53,11 +53,11 @@ namespace color_goggles.Presenter
             _view.RemoveLimits   = Properties.Settings.Default.RemoveLimits;
             _view.WinSaturation  = Properties.Settings.Default.WinSat;
             _view.GameSaturation = Properties.Settings.Default.GameSat;
-            _view.AppEnabled        = Properties.Settings.Default.Enabled;
+            _view.AppEnabled     = Properties.Settings.Default.Enabled;
             _view.IgnoreFocus    = Properties.Settings.Default.IgnoreFocus;
             _view.Autostart      = Properties.Settings.Default.Autostart;
             ManageAutostart();
-
+            // Load game list
             foreach (String processName in Properties.Settings.Default.Games) {
                 _view.AddGame(processName);
             }
@@ -104,7 +104,8 @@ namespace color_goggles.Presenter
         // -------------------------------------------------------------------------- SATURATION //
 
         public void ApplySaturation() {
-            _display.SetSaturation((isGameRunning && (_view.IgnoreFocus || isGameForeground)) ? _view.GameSaturation : _view.WinSaturation);
+            _display.SetSaturation((isGameRunning && (_view.IgnoreFocus || isGameForeground))
+                ? _view.GameSaturation : _view.WinSaturation);
         }
 
         public async void TestSaturationAsync() {
@@ -147,9 +148,10 @@ namespace color_goggles.Presenter
                 string baseURL = "https://api.github.com/repos/daniele-salvagni/color-goggles";
                 string param = "/releases/latest";
                 try {
-                    HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(baseURL + param);
-                    webRequest.UserAgent = "Mozilla / 4.0(compatible; MSIE 6.0; Windows NT 5.2;";
-                    WebResponse webResp = webRequest.GetResponse();
+                    HttpWebRequest webReq = (HttpWebRequest)WebRequest.Create(baseURL + param);
+                    webReq.UserAgent = "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 " + 
+                        "(KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10136";
+                    WebResponse webResp = webReq.GetResponse();
 
                     string response = new System.IO.StreamReader(webResp.GetResponseStream()).ReadToEnd();
 
