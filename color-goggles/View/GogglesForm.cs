@@ -14,8 +14,7 @@ namespace color_goggles
 {
     public partial class GogglesForm : Form, IGogglesView
     {
-        public GogglesForm()
-        {
+        public GogglesForm() {
             InitializeComponent();
         }
 
@@ -150,11 +149,10 @@ namespace color_goggles
             Presenter.CheckUpdatesAsync();
         }
 
-        private void Form1_Shown(object sender, EventArgs e) {
+         private void GogglesForm_Shown(object sender, EventArgs e) {
             disableToolStripMenuItem.Text = (checkEnable.Checked) ? "Disable" : "Enable";
-
-            // Minimize for autostart
             string[] args = Environment.GetCommandLineArgs();
+            // Minimized on Autostart
             if (args.Contains("-minimized")) {
                 Hide();
             }

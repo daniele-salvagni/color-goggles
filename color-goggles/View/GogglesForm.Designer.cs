@@ -332,38 +332,38 @@
             this.helpToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.contextMenuStrip.Name = "contextMenuStrip";
-            this.contextMenuStrip.Size = new System.Drawing.Size(176, 134);
+            this.contextMenuStrip.Size = new System.Drawing.Size(129, 106);
             // 
             // disableToolStripMenuItem
             // 
             this.disableToolStripMenuItem.Name = "disableToolStripMenuItem";
-            this.disableToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.disableToolStripMenuItem.Size = new System.Drawing.Size(128, 24);
             this.disableToolStripMenuItem.Text = "Disable";
             this.disableToolStripMenuItem.Click += new System.EventHandler(this.disableToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(172, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(125, 6);
             // 
             // showToolStripMenuItem
             // 
             this.showToolStripMenuItem.Name = "showToolStripMenuItem";
-            this.showToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.showToolStripMenuItem.Size = new System.Drawing.Size(128, 24);
             this.showToolStripMenuItem.Text = "Show";
             this.showToolStripMenuItem.Click += new System.EventHandler(this.showToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(128, 24);
             this.helpToolStripMenuItem.Text = "Help";
             this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(128, 24);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -416,6 +416,7 @@
             this.Text = " Color-Goggles";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GogglesForm_FormClosing);
             this.Load += new System.EventHandler(this.GogglesForm_Load);
+            this.Shown += new System.EventHandler(this.GogglesForm_Shown);
             this.ingameGroup.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ingameBar)).EndInit();
             this.windowsGroup.ResumeLayout(false);
