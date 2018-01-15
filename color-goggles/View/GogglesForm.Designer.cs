@@ -132,9 +132,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(235, 201);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 15);
+            this.label1.Size = new System.Drawing.Size(81, 15);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Version: v1.0.0";
+            this.label1.Text = "Version: 1.0.1";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // windowsGroup
@@ -319,7 +319,7 @@
             // 
             this.notifyIcon.ContextMenuStrip = this.contextMenuStrip;
             this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
-            this.notifyIcon.Text = "Color-Goggles v1.0.0";
+            this.notifyIcon.Text = "Color-Goggles v1.0.1";
             this.notifyIcon.Visible = true;
             // 
             // contextMenuStrip

@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Color-Goggles")]
-[assembly: AssemblyDescription("Saturation manager for Intel™ and Dual-Graphics laptops.")]
+[assembly: AssemblyDescription("Saturation manager for Intel and Dual-Graphics laptops.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Daniele S.")]
 [assembly: AssemblyProduct("Color-Goggles")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCopyright("Copyright © 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("d544a5c5-21e7-4257-842b-8ecb93f1696e")]
+[assembly: Guid("e7f7ff13-70e7-45cd-8032-86f40f08731f")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.1.0")]
+[assembly: AssemblyFileVersion("1.0.1.0")]

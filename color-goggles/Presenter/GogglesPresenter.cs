@@ -25,7 +25,7 @@ namespace color_goggles.Presenter
 
         private RegistryKey rkApp = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
 
-        private int VERSION = 100;
+        private int VERSION = 101;
 
         private readonly IGogglesView _view;
         private readonly IDisplay _display;
