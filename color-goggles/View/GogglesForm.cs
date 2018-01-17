@@ -201,6 +201,12 @@ namespace color_goggles
             WindowState = FormWindowState.Normal;
             BringToFront();
         }
+        
+        private void notifyIcon_DoubleClick(object sender, EventArgs e) {
+            Show();
+            WindowState = FormWindowState.Normal;
+            BringToFront();
+        }
 
         private void helpToolStripMenuItem_Click(object sender, EventArgs e) {
             System.Diagnostics.Process.Start("http://dan.salvagni.io/s/color-goggles/");
@@ -211,5 +217,6 @@ namespace color_goggles
             notifyIcon.Dispose();
             Application.Exit();
         }
+
     }
 }
