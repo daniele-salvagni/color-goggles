@@ -37,11 +37,4 @@ or on this repo's Release page: https://github.com/daniele-salvagni/color-goggle
 
 ---------------
 
-#### Changelog
-
-- v1.0.0 *(01-18)*: Complete application rewrite. Fixed bug preventing autostart to be disabled permanently. Intel saturation limits removal (experimental, from 100% to 320%). Added feature to automatically check for updates.
-- v0.2.1-beta *(12-17)*: Fix autostart bug (dll not found).
-- v0.2.0-beta *(09-17)*: Fix crashes for devices with different igfx versions, add UI support for high DPI displays, add new installation instructions.
-- v0.1.0-beta *(04-17)*: Initial release.
-
 <sub>Saturation is changed using Intel's `igfxDHLib.dll` which is undocumented, there are no public APIs so I had to reverse engineer the *Intel HD Graphics Control Panel* and then proceed by trial and error. Please report any issues you may encounter.<sub>
