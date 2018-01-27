@@ -1,8 +1,8 @@
-# ColorGoggles
+# Color-Goggles
 
 ![](https://img.shields.io/badge/requires-igfxDHLib.dll-ff69b4.svg) ![](https://img.shields.io/badge/saturation-+320%25-green.svg) 
 
-Saturation (up to **320%**) manager for Intel™ and Dual-Graphics laptops. - http://dan.salvagni.io/s/color-goggles/  
+Saturation manager (up to **320%**) for Intel™ and Dual-Graphics laptops. - http://dan.salvagni.io/s/color-goggles/  
 
 
 <p align="center">
@@ -16,7 +16,7 @@ This is an alternative to VibranceGUI for people with Intel HD Graphics or dual-
 ### Installation instructions ![Important](https://user-images.githubusercontent.com/6751621/33405314-0f6189ca-d568-11e7-966c-d4e0d89d6f50.png)
 
 - Download and extract the .zip
-- Open `C:\Windows\System32\DriverStore\FileRepository` and do a search for a file named `igfxDHLib.dll`
+- Open `C:\Windows\System32` and use the Search function to find a file named `igfxDHLib.dll`
 - Copy `igfxDHLib.dll` in the same folder as `Color-Goggles.exe`
 
 You have to do this because there are multiple versions of `igfxDHLib.dll` (they are all marked as `1.0.0.0` but are different), so I cannot embed the interop types in the .exe nor give you my DLL as it wouldn't work in most cases.
@@ -32,7 +32,7 @@ You have to do this because there are multiple versions of `igfxDHLib.dll` (they
 
 ### Download
 
-You can always find the latest release on the website: http://dan.salvagni.io/s/color-goggles/  
+You can always find the latest release on the website: https://dan.salvagni.io/s/color-goggles/  
 or on this repo's Release page: https://github.com/daniele-salvagni/color-goggles/releases
 
 ---------------
