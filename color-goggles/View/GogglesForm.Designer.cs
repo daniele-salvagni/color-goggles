@@ -190,9 +190,9 @@
             this.checkRemoveLimits.ForeColor = System.Drawing.Color.SeaGreen;
             this.checkRemoveLimits.Location = new System.Drawing.Point(8, 100);
             this.checkRemoveLimits.Name = "checkRemoveLimits";
-            this.checkRemoveLimits.Size = new System.Drawing.Size(166, 19);
+            this.checkRemoveLimits.Size = new System.Drawing.Size(107, 19);
             this.checkRemoveLimits.TabIndex = 3;
-            this.checkRemoveLimits.Text = "Remove limits (experim.)";
+            this.checkRemoveLimits.Text = "Remove limits";
             this.checkRemoveLimits.UseVisualStyleBackColor = true;
             this.checkRemoveLimits.CheckedChanged += new System.EventHandler(this.checkRemoveLimits_CheckedChanged);
             // 
