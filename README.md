@@ -21,6 +21,8 @@ This is an alternative to VibranceGUI for people with Intel HD Graphics or dual-
 
 You have to do this because there are multiple versions of `igfxDHLib.dll` (they are all marked as `1.0.0.0` but are different), so I cannot embed the interop types in the .exe nor give you my DLL as it wouldn't work in most cases.
 
+**IMPORTANT:** If you are using the new DCH Drivers and cannot find the DLL, follow these steps: https://github.com/daniele-salvagni/color-goggles/issues/16#issuecomment-513561967
+
 
 ### Usage
 
